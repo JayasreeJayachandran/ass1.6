@@ -28,7 +28,7 @@ import java.util.*;
  int b=s.nextInt();
  int sum=add(a,b);
  System.out.println(sum);}
- public static int add(int a,int b){
+ private static int add(int a,int b){
  int ad;
  ad=a+b;
  return ad;
